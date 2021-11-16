@@ -57,8 +57,33 @@
 //   console.log(count);
 // }
 
-var d = new Date();
+// var d = new Date();
 
-console.log(d.getDay());
-console.log(d.getHours());
-console.log(d.getMinutes());
+// console.log(d.getDay());
+// console.log(d.getHours());
+// console.log(d.getMinutes());
+
+function soma(x, y) {
+  return x + y;
+}
+
+function setReplace(frase, nome, novo_nome) {
+  return frase.replace(nome, novo_nome);
+}
+
+console.log(soma(5, 10));
+
+console.log(setReplace('vai Japão', 'Japão', 'Angola'));
+
+function validaIdade(idade) {
+  var validar;
+  if (idade >= 18) {
+    validar = true;
+  } else {
+    validar = false;
+  }
+  return validar;
+}
+
+var idade = prompt('Qual a sua idade');
+console.log(validaIdade(idade));
