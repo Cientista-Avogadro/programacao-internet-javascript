@@ -63,27 +63,56 @@
 // console.log(d.getHours());
 // console.log(d.getMinutes());
 
-function soma(x, y) {
-  return x + y;
+// function soma(x, y) {
+//   return x + y;
+// }
+
+// function setReplace(frase, nome, novo_nome) {
+//   return frase.replace(nome, novo_nome);
+// }
+
+// console.log(soma(5, 10));
+
+// console.log(setReplace('vai Japão', 'Japão', 'Angola'));
+
+// function validaIdade(idade) {
+//   var validar;
+//   if (idade >= 18) {
+//     validar = true;
+//   } else {
+//     validar = false;
+//   }
+//   return validar;
+// }
+
+// var idade = prompt('Qual a sua idade');
+// console.log(validaIdade(idade));
+
+function clicou() {
+  document.getElementById('redirect').innerHTML = '<b>Obrigado por Clicar</b>';
 }
 
-function setReplace(frase, nome, novo_nome) {
-  return frase.replace(nome, novo_nome);
+function Redirect() {
+  window.open('/cientista');
+  window.location.href = '/avogadro';
 }
 
-console.log(soma(5, 10));
-
-console.log(setReplace('vai Japão', 'Japão', 'Angola'));
-
-function validaIdade(idade) {
-  var validar;
-  if (idade >= 18) {
-    validar = true;
-  } else {
-    validar = false;
-  }
-  return validar;
+function Trocar(e) {
+  //   document.getElementById('mouseover').innerHTML =
+  //     'Obrigado por passar o mouse';
+  e.innerHTML = 'Obrigado por passar o mouse';
 }
 
-var idade = prompt('Qual a sua idade');
-console.log(validaIdade(idade));
+function Voltar(e) {
+  // document.getElementById('mouseover').innerHTML =
+  // 'Passar o mouse aqui';
+  e.innerHTML = 'Passar o mouse aqui';
+}
+
+function Load() {
+  console.log('página carregada');
+}
+
+function funcChange(e) {
+    console.log(e.value)
+}

@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Introdução ao javascript</title>
-</head>
-<body>
-    <h1>Minha Página</h1>
+  </head>
+  <body onLoad="Load()">
+    <button type="button" onclick="clicou()">Clique aqui</button>
+    <p id="redirect" onclick="Redirect()"></p>
+    <p id="mouseover" onmouseover="Trocar(this)" onmouseout="Voltar(this)">
+      Passar o mouse aqui
+    </p>
+    <p id="mouseover" onmouseover="Trocar(this)" onmouseout="Voltar(this)">
+      Passar o mouse aqui
+    </p>
+
+    <select onchange="funcChange(this)">
+        <option value="1">valor 1</option>
+        <option value="2">valor 2</option>
+        <option value="3">valor 3</option>
+    </select>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
