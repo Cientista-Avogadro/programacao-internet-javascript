@@ -12,16 +12,28 @@
 // console.log(frase.toLocaleLowerCase());
 // console.log(frase.replace('Japão', 'Angola'));
 
-var lista = ['maçã', 'pera', 'laranja'];
-lista.push('uva');
-lista.pop();
-console.log(lista);
-console.log(lista.toString());
-console.log(lista.join('-'));
+// var lista = ['maçã', 'pera', 'laranja'];
+// lista.push('uva');
+// lista.pop();
+// console.log(lista);
+// console.log(lista.toString());
+// console.log(lista.join('-'));
 
-var fruta = {
-    nome: 'maçã',
-    cor: 'vermelha'
-}
+// var fruta = {
+//   nome: 'maçã',
+//   cor: 'vermelha',
+// };
+// console.log(fruta.nome);
+// alert(fruta.nome);
 
-console.log(fruta)
+// var fruta = [
+//   {
+//     nome: 'maçã',
+//     cor: 'vermelha',
+//   },
+//   {
+//     nome: 'uva',
+//     cor: 'roxa',
+//   },
+// ];
+// console.log(fruta[0].nome)
