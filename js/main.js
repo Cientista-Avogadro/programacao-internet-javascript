@@ -38,10 +38,21 @@
 // ];
 // console.log(fruta[0].nome)
 
-var idade = prompt('qual a sua idade');
+// var idade = prompt('qual a sua idade');
 
-if (idade >= 18) {
-  alert('maior de idade');
-} else {
-  alert('menor de idade');
+// if (idade >= 18) {
+//   alert('maior de idade');
+// } else {
+//   alert('menor de idade');
+// }
+
+var count = 0;
+while (count <= 5) {
+  console.log(count);
+  count++;
+}
+
+var count;
+for (count = 0; count <= 5; count++) {
+  console.log(count);
 }
