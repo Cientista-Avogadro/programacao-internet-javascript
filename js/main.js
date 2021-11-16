@@ -46,13 +46,19 @@
 //   alert('menor de idade');
 // }
 
-var count = 0;
-while (count <= 5) {
-  console.log(count);
-  count++;
-}
+// var count = 0;
+// while (count <= 5) {
+//   console.log(count);
+//   count++;
+// }
 
-var count;
-for (count = 0; count <= 5; count++) {
-  console.log(count);
-}
+// var count;
+// for (count = 0; count <= 5; count++) {
+//   console.log(count);
+// }
+
+var d = new Date();
+
+console.log(d.getDay());
+console.log(d.getHours());
+console.log(d.getMinutes());
